@@ -287,6 +287,21 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>id_spinBox</tabstop>
+  <tabstop>origenx_spinBox</tabstop>
+  <tabstop>origeny_spinBox</tabstop>
+  <tabstop>destinox_spinBox</tabstop>
+  <tabstop>destinoy_spinBox</tabstop>
+  <tabstop>velocidad_spinBox</tabstop>
+  <tabstop>red_spinBox</tabstop>
+  <tabstop>green_spinBox</tabstop>
+  <tabstop>blue_spinBox</tabstop>
+  <tabstop>agregar_inicio_pushButton</tabstop>
+  <tabstop>agregar_final_pushButton</tabstop>
+  <tabstop>mostrar_pushButton</tabstop>
+  <tabstop>salida</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

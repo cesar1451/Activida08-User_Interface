@@ -203,6 +203,18 @@ class Ui_MainWindow(object):
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        QWidget.setTabOrder(self.id_spinBox, self.origenx_spinBox)
+        QWidget.setTabOrder(self.origenx_spinBox, self.origeny_spinBox)
+        QWidget.setTabOrder(self.origeny_spinBox, self.destinox_spinBox)
+        QWidget.setTabOrder(self.destinox_spinBox, self.destinoy_spinBox)
+        QWidget.setTabOrder(self.destinoy_spinBox, self.velocidad_spinBox)
+        QWidget.setTabOrder(self.velocidad_spinBox, self.red_spinBox)
+        QWidget.setTabOrder(self.red_spinBox, self.green_spinBox)
+        QWidget.setTabOrder(self.green_spinBox, self.blue_spinBox)
+        QWidget.setTabOrder(self.blue_spinBox, self.agregar_inicio_pushButton)
+        QWidget.setTabOrder(self.agregar_inicio_pushButton, self.agregar_final_pushButton)
+        QWidget.setTabOrder(self.agregar_final_pushButton, self.mostrar_pushButton)
+        QWidget.setTabOrder(self.mostrar_pushButton, self.salida)
 
         self.retranslateUi(MainWindow)
 
